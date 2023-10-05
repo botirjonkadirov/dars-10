@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer {
+  .align-element {
+      @apply mx-auto max-w-6xl px-8
+  }
+}
+
+a.active {
+  background-color: rgb(0, 145, 255);
+  padding: 2px 4px;
+  color: #FFF;
+}
