@@ -4,7 +4,7 @@ import { useContext, useEffect } from "react";
 import { ThemeContext } from "../context/ThemeContext";
 import Loading from '../components/loading';
 function Home() {
-  const {data: articles, isPending, error} = useFetch('http://localhost:3000/articles');
+  const {data: articles, isPending, error} = useFetch('https://slender-granite-actor.glitch.me/articles');
 
   const {dispatch, loading} = useContext(ThemeContext)
 

@@ -4,7 +4,7 @@ import { useFetch } from '../hooks/useFetch'
 
 function Article() {
     const {id} = useParams()
-    const url = 'http://localhost:3000/articles/' + id;
+    const url = 'https://slender-granite-actor.glitch.me/articles/' + id;
     const {data: article, isPending, error} = useFetch(url);
     console.log(article)
   return  (  
